@@ -19,4 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('post', 'postcontroller@all_post');
+Route::get('post', 'PostController@all_post') -> name('post controller');
